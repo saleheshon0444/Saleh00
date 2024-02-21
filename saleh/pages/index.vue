@@ -1,16 +1,19 @@
 <template>
   <div>
-   <ul>
-    <li><NuxtLink to="/products/123">123</NuxtLink></li>
-    <li><NuxtLink to="/products/245">245</NuxtLink></li>
-   </ul>
+    <h2>Home</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et pretium
+      nisl. Vestibulum accumsan libero leo, vel sollicitu
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et pretium
+      nisl. Vestibulum accumsan libero leo, vel sollicitu
+    </p>
   </div>
 </template>
 
 <script setup>
-
 </script>
 
 <style scoped>
-
 </style>
