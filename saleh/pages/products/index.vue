@@ -10,7 +10,10 @@
 
 <script setup>
 import ProductsCard from "~/components/productsCard.vue";
-
+useHead({
+  title: "Nuxt Dojo | Merch",
+  meta: [{ name: "description", content: "nuxt 3 merch" }],
+});
 definePageMeta({
   layout: "products",
 });

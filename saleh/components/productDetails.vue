@@ -9,6 +9,10 @@
         <p class="text-xl my-7">price - ${{ product.price }}</p>
         <h3 class="font-bold mb-4 border-b-2 pb-2">product description :</h3>
         <p>{{ product.description }}</p>
+        <button class="btn flex">
+          <i class="material-icons mr-2">add_shopping_cart</i>
+          <span>Add to cart</span>
+        </button>
       </div>
     </div>
   </div>
@@ -16,6 +20,10 @@
 
 <script setup>
 const { product } = defineProps(["product"]);
+useHead({
+  title: product.title,
+  meta: [{ name: "description", content: product.description }],
+});
 </script>
 
 <style scoped></style>
