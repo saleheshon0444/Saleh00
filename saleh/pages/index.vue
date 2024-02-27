@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h2>Home</h2>
+    <h1>Home</h1>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et pretium
-      nisl. Vestibulum accumsan libero leo, vel sollicitu
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+      molestias!
     </p>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et pretium
@@ -12,8 +12,6 @@
   </div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
-<style scoped>
-</style>
+<style scoped></style>

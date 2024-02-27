@@ -9,5 +9,22 @@ body{
         .btn{
            @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm text-white ; 
         }
+        .card {
+            @apply p-3 rounded-md bg-white shadow-md h-full;
+        }
+        .thumb{
+            max-height: 120px;
+            max-width: 70%;
+            margin: 0 auto;
+        }
     }
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18.72px;
 }

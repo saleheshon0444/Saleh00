@@ -24,4 +24,8 @@
 
 <script setup></script>
 
-<style scoped></style>
+<style scoped>
+.router-link-exact-active {
+  color: #12b488;
+}
+</style>
